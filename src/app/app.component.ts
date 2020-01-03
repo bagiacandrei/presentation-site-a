@@ -18,8 +18,8 @@ export class AppComponent {
 
   formItems() {
     for (var i = 1; i < 5; i++) {
-      var imgName = require("../assets/images/picture1.png");
-      this.items.push(imgName);
+      // var imgName = require("../assets/images/picture1.png");
+      this.items.push("../assets/images/picture1.png");
     }
   };
 
